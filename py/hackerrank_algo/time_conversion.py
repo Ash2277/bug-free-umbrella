@@ -1,0 +1,5 @@
+n=input()
+if(n[-2]=='A' and n[0:2]!='12'): print(n[0:8])
+elif(n[-2]=='A' and n[0:2]=='12'): print(n[0:8].replace('12','00'))
+elif(n[-2]=='P' and n[0:2]=='12'): print(n[0:8])
+else: print(n[0:8].replace(n[0:2],str(12+int(n[0:2]))))

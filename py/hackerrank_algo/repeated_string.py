@@ -1,0 +1,10 @@
+s=input()
+k=int(input())
+a=len(s)
+b=int(k/len(s))
+c=s.count('a')
+d=b*c
+e=len(s)*b
+f=s[:k-e].count('a')
+g=d+f
+print(g)
