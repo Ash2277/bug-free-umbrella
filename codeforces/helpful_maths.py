@@ -1,0 +1,5 @@
+s = list(map(int, input().split('+')))
+s.sort()
+a = list(map(str, s))
+value = '+'.join(a)
+print(value)

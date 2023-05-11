@@ -1,0 +1,7 @@
+n = int(input())
+a = list(map(int, input().split(' ')))
+a.sort()
+li = list(map(str, a))
+# print(li)
+s = ' '.join(li)
+print(s)
